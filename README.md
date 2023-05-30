@@ -20,6 +20,12 @@ Published Location: https://www.npmjs.com/package/header-custom
 Compiled files for reference: https://github.com/bpolimetla/header-custom/tree/main/dist
 Same can be deployed to web server or CDN and share those details with clients
 
+#-------------------------
+Run these commands in demo folder
+npm install -g live-server // Install globally via npm
+live-server                // Run in the html's directory
+
+
 
 # header-custom
 

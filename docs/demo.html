@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Demo ReactJS Client</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+	<meta http-equiv="Access-Control-Allow-Origin" content="*" />
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.js"></script>
+
+<script src="https://github.com/bpolimetla/header-custom/tree/main/dist/index.css" crossorigin></script>
+<script src="https://github.com/bpolimetla/header-custom/tree/main/dist/index.js" crossorigin></script>
+<script src="https://github.com/bpolimetla/header-custom/tree/main/dist/index.js.map" crossorigin></script>
+<script src="https://github.com/bpolimetla/header-custom/tree/main/dist/index.modern.js" crossorigin></script>
+<script src="https://github.com/bpolimetla/header-custom/tree/main/dist/index.modern.js.map" crossorigin></script>
+
+</head>
+<body>
+  
+	
+	<div id="container"></div>
+</br>
+<div id="container2"></div>
+
+<script type="text/babel">
+  var Hello = React.createClass({
+    render: function (){
+      return (<div>Hello at {this.props.now}</div>);
+    } 
+  });
+  
+  ReactDOM.render(<Hello now={new Date().toString()}/>, document.getElementById('container'));
+  
+  ReactDOM.render(<ExampleComponent now={new Date().toString()}/>, document.getElementById('container2'));
+  
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<ExampleComponent />);
+
+</script>
+
+
+</body>
+</html>
