@@ -25,6 +25,9 @@ Run these commands in demo folder
 npm install -g live-server // Install globally via npm
 live-server                // Run in the html's directory
 
+#------------------------------
+Also published demo html file and js files /dist from
+Your site is live at https://bpolimetla.github.io/header-custom/
 
 
 # header-custom
@@ -44,12 +47,12 @@ npm install --save header-custom
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'header-custom'
+import ExampleComponent from 'header-custom'
 import 'header-custom/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <ExampleComponent />
   }
 }
 ```
