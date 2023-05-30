@@ -1,3 +1,26 @@
+Reference: https://levelup.gitconnected.com/building-a-react-component-library-e4eb7985ff5d
+
+
+npm install -g create-react-library
+
+create-react-library header-custom
+
+-- Build 
+npm build
+
+-- Login with NPM Credentials
+npm login
+
+-- Publish code to NPM
+npm publish 
+
+
+Published Location: https://www.npmjs.com/package/header-custom
+
+Compiled files for reference: https://github.com/bpolimetla/header-custom/tree/main/dist
+Same can be deployed to web server or CDN and share those details with clients
+
+
 # header-custom
 
 > custom header library
